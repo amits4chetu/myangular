@@ -1,0 +1,20 @@
+<div id="top" class="navbar navbar-dark navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars fa-2x"></i>
+            </button>
+            <a class="navbar-brand" href="#"><strong>PHOTO</strong>GRAPHER</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li (click)="toHome()"><a routerLink="" routerLinkActive="active">Home</a></li>
+                <li (click)="toAbout()"><a routerLinkActive="active">About</a></li>
+                <li (click)="toGallery()"><a routerLinkActive="active">Gallery</a></li>
+                <li (click)="toContact()"><a routerLinkActive="active">Contact</a></li>
+                <li><a routerLink="/login" routerLinkActive="active">Login</a></li>
+            </ul>
+        </div><!--/.navbar-collapse -->
+    </div>
+</div>
